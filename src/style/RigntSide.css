@@ -1,0 +1,72 @@
+.right-side {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 40px 0;
+  align-items: center;
+  font-size: 22px;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* TOP ICON */
+.top-icon {
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.top-icon:hover {
+  transform: rotate(20deg);
+}
+
+/* MENU ITEMS */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.item {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.item:hover {
+  background-color: #ff9f2f;
+  box-shadow: 0 0 18px rgba(255, 165, 0, 0.7);
+}
+
+/* LABEL (P)  ------------------------------*/
+.item p {
+  position: absolute;
+  right: 65px;
+  background: #ff9f2f;
+  padding: 6px 14px;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+
+/* SHOW LABEL ON HOVER */
+.item:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}

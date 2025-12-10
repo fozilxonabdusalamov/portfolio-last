@@ -1,0 +1,156 @@
+.left-side {
+  width: 320px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 3px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.leftside-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.leftside-content > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  transition: 0.3s;
+}
+
+
+
+.job {
+  color: gray;
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons > a {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.icons > a:hover {
+  background-color: #ff9f2f;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(255, 165, 0, 0.7);
+}
+
+/* Information section */
+.leftcontent-info {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Progress Bars */
+.leftsidecontent-language {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leftsidecontent-language > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 100%;
+  height: 5px;
+  background: #ffe2bf;
+  border-radius: 3px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.bar p {
+  height: 100%;
+  background: orange;
+  transition: 0.5s ease;
+}
+
+/* Extra Skills */
+.extra-skills {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateX(6px);
+}
+
+/* CV Button */
+.download-cv {
+  padding: 25px 0;
+}
+
+.download-cv > button {
+  width: 100%;
+  height: 55px;
+  background-color: orange;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-cv > button:hover {
+  background-color: #ff9f2f;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(255, 165, 0, 0.7);
+}
