@@ -1,0 +1,11 @@
+.banner_container {
+  display: flex;
+}
+
+.banner_container > div > h1 {
+  font-size: 48px;
+}
+
+.banner_container > div > img{
+    width: 400px;
+}
