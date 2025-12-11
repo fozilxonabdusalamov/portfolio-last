@@ -6,17 +6,17 @@
 .banner_container > div > h1 {
   font-size: 45px;
 }
-.banner_container > div > button{
-    background-color: #ffb400;
-    width: 154px;
-    height: 51px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.banner_container > div > button {
+  background-color: #ffb400;
+  width: 154px;
+  height: 51px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .banner_container > div > h1 > span {

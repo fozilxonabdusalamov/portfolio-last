@@ -1,4 +1,7 @@
 .app_container {
   display: flex;
-  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: center;
+  background: #f0f0f6;
 }
