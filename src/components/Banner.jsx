@@ -1,6 +1,6 @@
 import "../style/Banner.css";
 import { FaArrowRight } from "react-icons/fa6";
-import MyImage from '../assets/_MG_5802.jpg'
+import MyImage from '../assets/Your Image 1.png'
 
 function Banner() {
   return (

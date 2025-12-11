@@ -1,4 +1,5 @@
-.main_container{
-    flex: 1;
-    background-color: antiquewhite;
+.main_container {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
 }

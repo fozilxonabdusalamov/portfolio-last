@@ -1,11 +1,41 @@
 .banner_container {
   display: flex;
+  padding: 40px;
 }
 
 .banner_container > div > h1 {
-  font-size: 48px;
+  font-size: 45px;
+}
+.banner_container > div > button{
+    background-color: #ffb400;
+    width: 154px;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-.banner_container > div > img{
-    width: 400px;
+.banner_container > div > h1 > span {
+  color: #ffb400;
+}
+.banner_container > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  justify-content: center;
+}
+.banner_container > div > p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #767676;
+  width: 424px;
+}
+
+.banner_container > div > img {
+  width: 350px;
 }
