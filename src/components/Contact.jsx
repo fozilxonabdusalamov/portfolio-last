@@ -5,8 +5,8 @@ import { IoIosPhonePortrait } from "react-icons/io";
 
 function Contact() {
   return (
-    <div>
-      <div>
+    <div className="contact_container">
+      <div className="contact_section">
         <form action="">
           <label htmlFor="fullname">
             Your Full Name ( Required)
@@ -26,9 +26,9 @@ function Contact() {
           </label>
           <button type="submit">Send Message</button>
         </form>
-        <div>
+        <div className="contact_info">
           <h2>Contact Information</h2>
-          <div>
+          <div className="info_item">
             <IoMdMap />
             <p>
               Country: <span>Uzbekistan</span>
@@ -40,7 +40,7 @@ function Contact() {
               Street: <span>Yangi Hayot</span>
             </p>
           </div>
-          <div>
+          <div className="info_item">
             <MdEmail />
             <p>
               Email: <span>fozilxonabdusalamov2006@gmail.com</span>
@@ -52,7 +52,7 @@ function Contact() {
               Instagram: <span>fozilxon25x</span>
             </p>
           </div>
-          <div>
+          <div className="info_item">
             <IoIosPhonePortrait />
             <p>
               Support: <span>+998 90 123 45 67</span>
@@ -66,7 +66,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="footer">
         © {new Date().getFullYear()} Fozilxon Abdusalamov. All Rights Reserved.
       </div>
     </div>
